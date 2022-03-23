@@ -1,0 +1,47 @@
+
+.menu{
+    text-align: right;
+    list-style-type: none;
+    background: gainsboro;
+    margin: 0;
+    line-height: 50px;
+}
+.mobile-menu{
+    width: 150px;
+    position: absolute;
+    left: -250px;
+    left: 0px;
+    transition: left 1s;
+    background: gainsboro;
+    margin: 0px;
+    top: 75px;
+    padding: 20px;
+}
+.menu>li{
+    display: inline;
+    margin-right: 15px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+.mobile-menu>li{
+    display: block;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+.active>a{
+    color: red !important;
+    font-size: 30px;
+}
+img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    cursor: pointer;
+}
